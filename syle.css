@@ -38,3 +38,7 @@ keyframes jump{
     0%{left: 500px} 
     100%{left: -20px}
 }
+
+p{
+    text-align: center;
+}

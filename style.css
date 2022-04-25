@@ -1,12 +1,41 @@
+/* grid size and color*/
 .grid {
     width: 300px;
     height: 300px;
-    border: solid black 1px;
+    border: solid gold 10px;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
 }
 
-.grid div {
+/* all divs inside a div, its a class name*/
+.grid div { 
     width: 20px;
     height:20px;
+}
+
+/* invader color */
+.invader {
+    background-color:blue;
+    border-radius: 10px;
+}
+
+/* shooter color */
+.shooter {
+    background-color: whitesmoke;
+    border: solid blue 2px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: fantasy;
+    color: blue;
+}
+
+.laser {
+    background-color:lightblue;
+}
+
+.boom {
+    background-color: red;
 }
